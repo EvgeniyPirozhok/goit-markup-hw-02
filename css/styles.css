@@ -1,0 +1,43 @@
+
+:root{
+    --primary-text-color: #757575 ;
+    --tittle-text-color: #212121;
+    --accent-color:#2196F3;
+    --white-color:#ffffff;
+}
+body{
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* фон футер и герой #2F303A */
+
+.logo {
+    color: var(--tittle-text-color);
+    text-decoration: none; 
+}
+.logo-1 {
+    color: var(--accent-color);
+}
+/* site-nav */
+.site-nav .link {
+    color: var(--tittle-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.call .link{
+    color: var(--primary-text-color);
+}
+.call .link:focus,
+.call .link:hover{
+    color: var(--accent-color);
+}
