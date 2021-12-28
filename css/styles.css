@@ -47,6 +47,9 @@ body{
 .site-nav .link:focus{
     color: var(--accent-color);
 }
+.site-nav .link:active{
+    color: var(--accent-color);
+}
 .call .link{
     color: var(--primary-text-color);
 
@@ -77,6 +80,7 @@ body{
     line-height: 1.88;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 
     background-color: var(--accent-color);
     color: var(--white-color);
@@ -109,7 +113,6 @@ body{
     color: var(--tittle-text-color);
 }
 .profession{
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -129,10 +132,45 @@ body{
 .logo-footer-web{
     color: var(--accent-color);
 }
-.adress{
-    text-decoration: none; 
-    font-weight: normal;
+.address{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--white-color);
+}
+.address-link{
+    text-decoration: none;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
+}
+.filter-link{
+    text-align: center;
+}
+.filter{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--tittle-text-color);
+    cursor: pointer;
+}
+.filter:hover,
+.filter:focus{
+    background-color:  var(--accent-color);
+    color: var(--white-color);
+}
+.link-filter{
+    text-decoration: none;
+}
+.title-filter{
+    font-size: 18px;
+    line-height: 2;
+    color: var(--tittle-text-color);
+}
+.text-filter{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
