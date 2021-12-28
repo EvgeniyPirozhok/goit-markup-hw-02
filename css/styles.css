@@ -4,10 +4,13 @@
     --tittle-text-color: #212121;
     --accent-color:#2196F3;
     --white-color:#ffffff;
+    --background-grey: #2F303A;
+    --background-light-grey: #F5F4FA;
 }
 body{
-    background-color: var(--white-color);
+    background-color: var(--background-light-grey);
     color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
 }
 .list {
     list-style: none;
@@ -22,6 +25,11 @@ body{
 .logo {
     color: var(--tittle-text-color);
     text-decoration: none; 
+
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo-1 {
     color: var(--accent-color);
@@ -29,6 +37,11 @@ body{
 /* site-nav */
 .site-nav .link {
     color: var(--tittle-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -36,8 +49,90 @@ body{
 }
 .call .link{
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    text-decoration: none;
 }
 .call .link:focus,
 .call .link:hover{
     color: var(--accent-color);
+}
+.hero{
+    background-color: var(--background-grey);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--white-color);
+}
+.main-button{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+.hidden-header{
+    display: none;
+}
+.benefits{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.benefits-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--tittle-text-color);
+}
+.title-two{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--tittle-text-color);
+}
+.name-employee{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--tittle-text-color);
+}
+.profession{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.footer{
+    background-color: var(--background-grey);
+    
+}
+.logo-footer{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.logo-footer-web{
+    color: var(--accent-color);
+}
+.adress{
+    text-decoration: none; 
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
 }
