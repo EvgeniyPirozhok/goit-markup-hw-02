@@ -138,12 +138,21 @@ body{
     line-height: 1.7;
     color: var(--white-color);
 }
+.address:hover,
+.adress:focus{
+    color: var(--accent-color);
+}
 .address-link{
     text-decoration: none;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent-color);
+}
+
 .filter-link{
     text-align: center;
 }
